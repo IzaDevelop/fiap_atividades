@@ -1,0 +1,19 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p {
+    border: 1px solid crimson;
+    border-radius: 10px;
+    padding: 0rem 1rem 1rem;
+}
