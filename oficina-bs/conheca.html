@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <title>Hotel BS</title>
+    </head>
+
+    <body>
+
+        <div class="container my-3">
+            <h1 class="bg-danger display-2 text-light py-3 px-2">Hotel XPTO</h1>
+
+            <nav aria-label="breadcrumb" class="my-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">Você está em: <a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Hotel XPTO</li>
+                </ol>
+            </nav>
+
+            <p class="lead">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam enim sequi neque iste architecto
+                aliquid explicabo harum, a deserunt odio quasi ex cumque hic doloribus officia est natus velit, quis
+                iusto sed? Odio possimus placeat cum, error aperiam similique beatae dolorem. Corporis non voluptates
+                officia, dolorem vero similique ipsam est quia explicabo aliquam magni rerum voluptas quos delectus
+                pariatur repellendus, ab placeat sequi. Cum laboriosam at molestiae eos quod quia non distinctio, nobis
+                quis fugit quisquam, maiores hic cumque? Dolorem sed at, porro quidem, esse praesentium adipisci cum
+                molestias asperiores, dolores minima doloribus velit quis fuga quibusdam hic et alias!
+            </p>
+
+
+            <!-- Vídeos -->
+            <div class="row my-5">
+
+                <div class="col-12 col-sm-6 my-3">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/UwFW-iz24Wg" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 my-3">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/IfE1AQkCEAw" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim vídeos -->
+
+            <h3 class="bg-primary display-4 text-light  py-3 my-3 px-2">Galeria</h3>
+
+            <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3  gy-3">
+
+                <div class="col">
+                    <img src="./images/pexels-asad-photo-maldives-3601437.jpg" alt="Vista da praia ABCD"
+                        class="gallery-item img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="./images/pexels-kobe-1714455.jpg" alt="Vista da praia SDFG" class="gallery-item img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="./images/pexels-michal-marek-3703465.jpg" alt="Vista da praia TYUI" class="gallery-item img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="./images/pexels-pok-rie-3188234.jpg" alt="Vista da praia HJKL" class="gallery-item img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="./images/pexels-pixabay-261181.jpg" alt="Vista da praia ISRA" class="gallery-item img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="./images/pexels-thorsten-technoman-338504.jpg" alt="Vista da praia XCVB"
+                        class="gallery-item img-fluid">
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <h3 class="bg-danger display-4 text-light  py-3 my-3 px-2">Faça sua reserva</h3>
+
+            <form action="" method="post" id="reserva">
+                <div class="row mb-5">
+
+                    <div class="col-12 my-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" required placeholder="ex: Fulano de Tal" id="nome">
+                    </div>
+
+                    <div class="col-4 my-3">
+                        <label for="entrada" class="form-label">Data de entrada</label>
+                        <input type="date" class="form-control" required id="entrada">
+                    </div>
+
+                    <div class="col-4 my-3">
+                        <label for="saida" class="form-label">Data de saída</label>
+                        <input type="date" class="form-control" required id="saida">
+                    </div>
+
+                    <div class="col-4 my-3">
+                        <label for="suite" class="form-label">Selecione a suíte</label>
+                        <select name="suite" id="suite" class="form-select" required>
+                            <option value="0" selected disabled>Escolha a suíte</option>
+                            <option value="1">Master</option>
+                            <option value="2">Premium</option>
+                            <option value="3">Vip</option>
+                            <option value="4">Presidencial</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 my-3 d-flex justify-content-end">
+                        <input type="submit" value="Verificar disponibilidade" class="btn  btn-success">
+                    </div>
+
+                </div>
+            </form>
+
+
+
+
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    </body>
+
+</html>
