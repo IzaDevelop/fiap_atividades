@@ -8,6 +8,15 @@ let cidades = texto.split("*");
 let roteiroA = texto.split("#");
 let turismo = texto.split(";");
 
+let sp = ['Avenida Paulista',
+'MASP', 'Parque Trianon', 'Rua Augusta'];
+
+let las_vegas = ['Las Vegas Boulevard South',
+'Fonte do Bellagio', 'Principais Cassinos', 'Madame Tussauds'];
+
+let moscou = ['Praça Vermelha',
+'Museu Histórico do Estado', 'Catedral de São Basílico', 'Mausoléu de Lênin'];
+
 // criando elemento 
 let paragrafo = document.createElement("p");
 
@@ -16,7 +25,7 @@ paragrafo.innerHTML = `<h2>Cidades avaliadas</h2> ${cidades[1]} <br> ${cidades[3
 
 <h2>Roteiro</h2> São Paulo: ${roteiroA[1]} <br> Las vegas: ${roteiroA[4]} <br> Moscou: ${roteiroA[7]}
 
-<h2>Quantidade de locais citados no roteiro A</h2>
+<h2>Quantidade de locais citados no roteiro A</h2> São Paulo = ${sp.length} <br> Las Vegas = ${las_vegas.length} <br> Moscou = ${moscou.length}
 
 <h2>Pontos turísticos São Paulo</h2> ${turismo[3]} <br> ${turismo[4]} <br> ${turismo[5]}
 
